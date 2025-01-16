@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columnas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Columnas usando Bootstrap</h1>
+
+        <section class="mb-5">
+            <h2>3 Columnas iguales</h2>
+            <div class="row">
+                <div class="col-md-4 bg-primary text-white text-center p-3">Columna 1</div>
+                <div class="col-md-4 bg-secondary text-white text-center p-3">Columna 2</div>
+                <div class="col-md-4 bg-success text-white text-center p-3">Columna 3</div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2>Columnas diferentes (8 y 4 md)</h2>
+            <div class="row">
+                <div class="col-md-8 bg-warning text-dark text-center p-3">Columna 8</div>
+                <div class="col-md-4 bg-info text-dark text-center p-3">Columna 4</div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2>Columnas diferentes (8 y 4 md) con columnas anidadas</h2>
+            <div class="row">
+                <div class="col-md-8 bg-danger text-white p-3">
+                    <div class="row">
+                        <div class="col-6 bg-light text-dark text-center p-2">Anidada 1</div>
+                        <div class="col-6 bg-dark text-white text-center p-2">Anidada 2</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="mb-5">
+    <h2>Mezcla de columnas (sm, md, lg)</h2>
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 bg-primary text-white text-center p-3">Columna 1</div>
+        <div class="col-sm-6 col-md-8 col-lg-6 bg-secondary text-white text-center p-3">Columna 2</div>
+        <div class="col-sm-12 col-md-12 col-lg-3 bg-success text-white text-center p-3">Columna 3</div>
+    </div>
+</section>
+
+<section class="mb-5">
+    <h2>Mezcla de columnas (sm, lg)</h2>
+    <div class="row">
+        <div class="col-sm-8 col-lg-4 bg-warning text-dark text-center p-3">Columna 1</div>
+        <div class="col-sm-4 col-lg-2 bg-info text-dark text-center p-3">Columna 2</div>
+        <div class="col-sm-6 col-lg-3 bg-danger text-white text-center p-3">Columna 3</div>
+        <div class="col-sm-6 col-lg-3 bg-dark text-white text-center p-3">Columna 4</div>
+    </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
